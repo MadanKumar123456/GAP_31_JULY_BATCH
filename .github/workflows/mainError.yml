@@ -1,6 +1,6 @@
 name: Error workflow
 
-on: push1
+on: push
 
 jobs: 
 
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print build
-        run: echo 'build'
+        run: echo 'build
 
   test:
     runs-on: windows-latest
